@@ -1,0 +1,28 @@
+# Exported data (contains personal info)
+output/
+**/output/
+*_output.txt
+contacts.json
+contacts.csv
+notes.json
+notes.md
+messages.json
+messages.csv
+imessage_mirror.db
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+token.pickle
+
+# Generated JSON files with personal data
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
